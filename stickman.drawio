@@ -1,0 +1,61 @@
+<mxfile host="65bd71144e">
+    <diagram id="xyOuumeW-eLeK9pgywqw" name="Page-1">
+        <mxGraphModel dx="832" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Player" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;gradientDirection=radial;fillColor=default;glass=0;shadow=0;fillStyle=auto;" parent="1" vertex="1">
+                    <mxGeometry x="350" y="230" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;playerName, Str&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;points, int&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;turns, int&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;guesses, int&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;gradientDirection=radial;fillColor=default;glass=0;shadow=0;fillStyle=auto;" parent="1" vertex="1">
+                    <mxGeometry x="350" y="250" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="addPoint() void&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;getScore() int&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;gradientDirection=radial;fillColor=default;glass=0;shadow=0;fillStyle=auto;" parent="1" vertex="1">
+                    <mxGeometry x="350" y="340" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="edgeStyle=none;html=1;" parent="1" source="5" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Board" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;gradientDirection=radial;fillColor=default;glass=0;shadow=0;fillStyle=auto;" parent="1" vertex="1">
+                    <mxGeometry x="500" y="230" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;guessesLeft, int&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;wrongGuesses, Str&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;rightGuesses, Str&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;gradientDirection=radial;fillColor=default;glass=0;shadow=0;fillStyle=auto;" parent="1" vertex="1">
+                    <mxGeometry x="500" y="250" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="drawBoard(guessesLeft) void&lt;div&gt;printWrongGuesses void&lt;/div&gt;&lt;div&gt;printRightGuesses void&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;gradientDirection=radial;fillColor=default;glass=0;shadow=0;fillStyle=auto;" parent="1" vertex="1">
+                    <mxGeometry x="500" y="340" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Mechanics" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;gradientDirection=radial;fillColor=default;glass=0;shadow=0;fillStyle=auto;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="230" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="secretWord Str&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;gradientDirection=radial;fillColor=default;glass=0;shadow=0;fillStyle=auto;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="250" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="checkGuess() boolean&lt;div&gt;hasWon() boolean&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;gradientDirection=radial;fillColor=default;glass=0;shadow=0;fillStyle=auto;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="340" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Player" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;gradientDirection=radial;fillColor=default;glass=0;shadow=0;fillStyle=auto;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="740" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;playerName, Str&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;playerSign, boolean&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;gradientDirection=radial;fillColor=default;glass=0;shadow=0;fillStyle=auto;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="760" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="&lt;div&gt;&lt;div&gt;playCircle() void&lt;/div&gt;&lt;/div&gt;&lt;div&gt;playCross() void&lt;/div&gt;&lt;div&gt;getName() string&lt;/div&gt;&lt;div&gt;setName() void&lt;/div&gt;&lt;div&gt;getSign() boolean&lt;/div&gt;&lt;div&gt;setSign() void&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;gradientDirection=radial;fillColor=default;glass=0;shadow=0;fillStyle=auto;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="850" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="16" target="18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Board" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;gradientDirection=radial;fillColor=default;glass=0;shadow=0;fillStyle=auto;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="740" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;topLeft str&lt;/td&gt;&lt;td&gt;topMid str&lt;/td&gt;&lt;td&gt;topRight str&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;midLeft str&lt;/td&gt;&lt;td&gt;&amp;nbsp;midMid str&lt;/td&gt;&lt;td&gt;&amp;nbsp;midRight str&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;lowLeft str&lt;/td&gt;&lt;td&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; lowMid str&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/td&gt;&lt;td&gt;lowRight str&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;player1Win, boolean&lt;div&gt;player2Win, boolean&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;gradientDirection=radial;fillColor=default;glass=0;shadow=0;fillStyle=auto;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="760" width="310" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="drawBoard() void&lt;div&gt;checkWin() boolean&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;gradientDirection=radial;fillColor=default;glass=0;shadow=0;fillStyle=auto;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="850" width="120" height="90" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
