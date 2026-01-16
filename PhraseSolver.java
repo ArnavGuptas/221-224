@@ -32,16 +32,6 @@ public class PhraseSolver
     boolean correct = true;
     while (!solved) 
     {
-      if ((board.getSolvedPhrase().indexOf("_")) == -1){
-        if (currentPlayer == 1) {
-            System.out.println(player2.getName() + " won!");
-            solved = true;
-          }
-        else{
-            System.out.println(player1.getName() + " won!");
-            solved = true;
-          }
-      }
       /* your code here - game logic */
       if (currentPlayer == 1){
         System.out.println(player1.getName() + "'s turn.");
@@ -85,6 +75,16 @@ public class PhraseSolver
         else{
           guessedLetters.add(guess);
         }
+      }
+      if ((board.getSolvedPhrase().indexOf("_")) == -1){
+        if (currentPlayer == 1) {
+            System.out.println(player2.getName() + " won!");
+            solved = true;
+          }
+        else{
+            System.out.println(player1.getName() + " won!");
+            solved = true;
+          }
       }
       /* your code here - determine how game ends */
     } 
